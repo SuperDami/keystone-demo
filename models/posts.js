@@ -13,9 +13,10 @@ Post.add({
 	author: { type: Types.Relationship, ref: 'User', index: true },
 	publishedDate: { type: Types.Date, index: true },
 	image: { type: Types.CloudinaryImage },
+	showHeader: { type: Types.Select, options: 'Yes, No', default: 'No', index: true },
 	content: {
-		brief: { type: Types.Html, wysiwyg: true, height: 150 },
-		extended: { type: Types.Html, wysiwyg: true, height: 400 }
+		brief: { type: Types.Html, wysiwyg: false, height: 150 },
+		extended: { type: Types.Html, wysiwyg: false, height: 400 }
 	},
 	categories: { type: Types.Relationship, ref: 'PostCategory', many: true }
 });
@@ -32,5 +33,5 @@ Post.schema.virtual('content.full').get(function() {
 Post.relationship({ path: 'comments', ref: 'PostComment', refPath: 'comment' });
 
 Post.addPattern('standard meta');
-Post.defaultColumns = 'title, state|20%, author|20%, publishedDate|20%';
+Post.defaultColumns = 'title, state|20%, author|15%, publishedDate|15%, showHeader|10%, categories|15%';
 Post.register();

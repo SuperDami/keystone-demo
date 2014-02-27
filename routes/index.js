@@ -68,5 +68,6 @@ exports = module.exports = function(app) {
 	// app.all('/api*', keystone.initAPI);
 	app.get('/api/users', routes.api.users);
 	app.get('/api/categories', routes.api.categories);
-	app.get('/api/posts/:category?', routes.api.posts);
+	app.get('/api/category/:category?/:listType?/:pageNumber?', routes.api.category);
+	app.get('/api/gallery', routes.api.gallery);
 }
