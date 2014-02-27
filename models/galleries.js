@@ -12,7 +12,7 @@ Gallery.add({
 	heroImage: { type: Types.CloudinaryImage },
 	images: { type: Types.CloudinaryImages },
 	content: {
-		description: { type: Types.Html, wysiwyg: false, height: 150 },
+		brief: { type: Types.Html, wysiwyg: false, height: 150 },
 	},
 });
 
