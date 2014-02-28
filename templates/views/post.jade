@@ -11,7 +11,7 @@ html
         if !data.post
           h2 Invalid Post.
         else
-          header(style="background: #000 url(" + data.post.image.url + ") left top no-repeat;background-size:cover;")
+          header(style="background: #000 url(" + data.post.image.url + ") center center no-repeat;background-size:cover;")
             h1= data.post.title
             if data.post.publishedDate
               h5 #{data.post._.publishedDate.format('YYYY-MM-DD')}
