@@ -6,13 +6,13 @@ var Gallery = new keystone.List('Gallery', {
 });
 
 Gallery.add({
-	title: { type: String, required: true, default: '' },
+	title: { type: String, required: false, default: '' },
 	state: { type: Types.Select, options: 'draft, published, archived', default: 'draft', index: true },
 	publishedDate: { type: Types.Date, index: true },
 	heroImage: { type: Types.CloudinaryImage },
 	images: { type: Types.CloudinaryImages },
 	content: {
-		brief: { type: Types.Html, wysiwyg: false, height: 150 },
+		brief: { type: Types.Html, wysiwyg: false, height: 100 },
 	},
 });
 
