@@ -5,6 +5,23 @@ html, body {
   padding: 0;
 }
 
+.blank {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0);;  
+}
+
+.goldLine {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 2px;
+  background-color: #e0c39a;  
+}
+
 body {
   background: #FFF url(/images/bg.png) left top repeat;
   background-size: 320px 568px;
@@ -17,7 +34,6 @@ header {
 }
 
 .grayCover {
-  position: absolute;
   left: 0px;
   right: 0px;
   top: 0px;
@@ -46,7 +62,7 @@ h5 {
 }
 
 h2 {
-  color: #725a3e;
+  color: #e0c39a;
   font-size: 14px;
   font-weight: normal;
   margin: 16px 0 10px;
