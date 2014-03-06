@@ -14,7 +14,8 @@ exports = module.exports = function(req, res) {
 		post: req.params.post
 	};
 	locals.data = {
-		posts: []
+		posts: [],
+		blankHeight: req.query.blankHeight
 	};
 	
 	// Load the current post
