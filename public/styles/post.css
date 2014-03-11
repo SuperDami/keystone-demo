@@ -33,6 +33,7 @@ header {
 }
 
 .grayCover {
+  position:relative; 
   left: 0px;
   right: 0px;
   top: 0px;
@@ -42,7 +43,7 @@ header {
 
 h1 {
   margin: 0;
-  padding: 42px 0 0 15px;
+  padding: 52px 0 0 15px;
   font-weight: normal;
   font-size: 18px;
 }
