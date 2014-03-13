@@ -70,4 +70,5 @@ exports = module.exports = function(app) {
 	app.get('/api/categories', routes.api.categories);
 	app.get('/api/category/:category?', routes.api.category);
 	app.get('/api/gallery', routes.api.gallery);
+	app.get('/api/intro', routes.api.intro);
 }
