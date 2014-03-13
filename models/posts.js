@@ -15,6 +15,8 @@ Post.add({
 	image: { type: Types.CloudinaryImage },
 	showHeader: { type: Types.Select, options: 'Yes, No', default: 'No', index: true },
 	videoURL: { type: String },
+	contentHtmlURL: { type: String },
+	
 	content: {
 		brief: { type: Types.Html, wysiwyg: false, height: 100 },
 		extended: { type: Types.Html, wysiwyg: true, height: 200 }

@@ -13,14 +13,6 @@ html, body {
   background-color: rgba(0, 0, 0, 0);;  
 }
 
-.goldLine {
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  height: 2px;
-  background-color: #e0c39a;  
-}
-
 body {
   background: #FFF url(/images/bg.png) left top repeat;
   background-size: 320px 568px;
