@@ -14,8 +14,8 @@ Post.add({
 	publishedDate: { type: Types.Date, index: true },
 	image: { type: Types.CloudinaryImage },
 	showHeader: { type: Types.Select, options: 'Yes, No', default: 'No', index: true },
-	videoURL: { type: String },
-	contentHtmlURL: { type: String },
+	videoURL: { type: Types.Url },
+	contentHtmlURL: { type: Types.Url },
 	
 	content: {
 		brief: { type: Types.Html, wysiwyg: false, height: 100 },
