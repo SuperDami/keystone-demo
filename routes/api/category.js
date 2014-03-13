@@ -45,7 +45,7 @@ exports = module.exports = function(req, res) {
 				for (var i = results["results"].length - 1; i >= 0; i--) {
 					var entry = results["results"][i];
 					if (!entry['contentHtmlURL']) {
-						entry['contentHtmlURL'] = encodeURIComponent("/blog/post/" + entry["slug"]);
+						entry['contentHtmlURL'] = "/blog/post/" + encodeURIComponent(entry["slug"]);
 					}
 				};
 				categoryData['list'] = results;
@@ -54,7 +54,7 @@ exports = module.exports = function(req, res) {
 					for (var i = results["results"].length - 1; i >= 0; i--) {
 						var entry = results["results"][i];
 						if (!entry['contentHtmlURL']) {
-							entry['contentHtmlURL'] = encodeURIComponent("/blog/post/" + entry["slug"]);
+							entry['contentHtmlURL'] = "/blog/post/" + encodeURIComponent(entry["slug"]);
 						}
 					};
 					categoryData['header'] = results;
