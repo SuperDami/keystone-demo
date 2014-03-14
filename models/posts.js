@@ -12,7 +12,10 @@ Post.add({
 	state: { type: Types.Select, options: 'draft, published, archived', default: 'draft', index: true },
 	author: { type: Types.Relationship, ref: 'User', index: true },
 	publishedDate: { type: Types.Date, index: true },
-	image: { type: Types.CloudinaryImage },
+	// image: { type: Types.CloudinaryImage },
+	image: { 
+		url: { type: Types.Url, height: 100 }
+	},
 	showHeader: { type: Types.Select, options: 'Yes, No', default: 'No', index: true },
 	videoURL: { type: Types.Url },
 	contentHtmlURL: { type: Types.Url },

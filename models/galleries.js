@@ -9,8 +9,14 @@ Gallery.add({
 	title: { type: String, required: false, default: '' },
 	state: { type: Types.Select, options: 'draft, published, archived', default: 'draft', index: true },
 	publishedDate: { type: Types.Date, index: true },
-	heroImage: { type: Types.CloudinaryImage },
-	images: { type: Types.CloudinaryImages },
+	// heroImage: { type: Types.CloudinaryImage },
+	// images: { type: Types.CloudinaryImages },
+	heroImage: {
+		url: { type: Types.Url, height: 100 }
+	},
+	images: {
+		urls: { type: Types.Textarea, height: 300 }
+	},
 	content: {
 		brief: { type: Types.Html, wysiwyg: false, height: 100 },
 	},
