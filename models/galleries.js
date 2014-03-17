@@ -17,9 +17,10 @@ Gallery.add({
 	images: {
 		urls: { type: Types.Textarea, height: 300 }
 	},
-	content: {
-		brief: { type: Types.Html, wysiwyg: false, height: 100 },
-	},
+	contentHtmlURL: { type: Types.Url },
+	// content: {
+	// 	brief: { type: Types.Html, wysiwyg: false, height: 100 },
+	// },
 });
 
 Gallery.addPattern('standard meta');
