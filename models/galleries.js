@@ -18,9 +18,9 @@ Gallery.add({
 		urls: { type: Types.Textarea, height: 300 }
 	},
 	contentHtmlURL: { type: Types.Url },
-	// content: {
-	// 	brief: { type: Types.Html, wysiwyg: false, height: 100 },
-	// },
+	content: {
+		brief: { type: Types.Html, wysiwyg: false, height: 100 },
+	},
 });
 
 Gallery.addPattern('standard meta');
