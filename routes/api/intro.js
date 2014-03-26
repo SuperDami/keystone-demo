@@ -6,7 +6,7 @@ exports = module.exports = function(req, res) {
 		var json = {
 			"animation":[],
 			"start_date":1393682400,
-			"end_date":1493768800,
+			"end_date":1393682400,
 			"file":"http://hls-img.iweek.ly/filehub/others/201403/1395806169hro.zip",
 			"html_duration":6,
 			"html_file":"iwatch/index.html",
