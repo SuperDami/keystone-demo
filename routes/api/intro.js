@@ -8,11 +8,11 @@ exports = module.exports = function(req, res) {
 			"end_date":"1393768800",
 			"file":"http://hls-img.iweek.ly/filehub/others/201403/1395806169hro.zip",
 			"html_duration":6,
-			"html_file":"index.html",
+			"html_file":"iwatch/index.html",
 			"in_app_html":{
-				"end_date":1393768800,
-				"html_duration":0,
-				"html_file":"",
+				"end_date":1493768800,
+				"html_duration":6,
+				"html_file":"iwatch/index.html",
 				"html_inter":0,
 				"show_times":0,
 				"start_date":1393682400
@@ -22,13 +22,13 @@ exports = module.exports = function(req, res) {
 				"file":"http://hls-img.iweek.ly/filehub/others/201403/1395806169hro.zip",
 				"images":
 			[
-				"images/iwatch1.jpg",
-				"images/iwatch2.jpg",
-				"images/iwatch3.jpg",
-				"images/iwatch4.jpg",
-				"images/iwatch5.jpg",
-				"images/iwatch6.jpg",
-				"images/iwatch7.jpg",
+				"iwatch/images/iwatch1.jpg",
+				"iwatch/images/iwatch2.jpg",
+				"iwatch/images/iwatch3.jpg",
+				"iwatch/images/iwatch4.jpg",
+				"iwatch/images/iwatch5.jpg",
+				"iwatch/images/iwatch6.jpg",
+				"iwatch/images/iwatch7.jpg",
 			]
 			},
 			"start_date":"1393682400",
