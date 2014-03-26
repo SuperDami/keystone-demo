@@ -19,16 +19,16 @@ exports = module.exports = function(req, res) {
 			},
 			"splash_ken_burns":
 			{
-				"file":
-				"http:\/\/hls-img.iweek.ly\/filehub\/others\/201403\/1395130196bdn.zip",
+				"file":"http://hls-img.iweek.ly/filehub/others/201403/1395806169hro.zip",
 				"images":
 			[
-				"splash1.jpg",
-				"splash2.jpg",
-				"splash3.jpg",
-				"splash4.jpg",
-				"splash5.jpg",
-				"splash6.jpg"
+				"images/iwatch1.jpg",
+				"images/iwatch2.jpg",
+				"images/iwatch3.jpg",
+				"images/iwatch4.jpg",
+				"images/iwatch5.jpg",
+				"images/iwatch6.jpg",
+				"images/iwatch7.jpg",
 			]
 			},
 			"start_date":"1393682400",
