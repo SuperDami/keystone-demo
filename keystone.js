@@ -55,7 +55,8 @@ keystone.set('nav', {
 	'galleries': 'galleries',
 	'enquiries': 'enquiries',
 	'users': 'users',
-	'field-tests': 'things'
+	'field-tests': 'things',
+	'intros': 'intros',
 });
 
 keystone.start();
