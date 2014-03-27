@@ -51,12 +51,11 @@ keystone.set('locals', {
 keystone.set('routes', require('./routes'));
 
 keystone.set('nav', {
-	'posts': ['posts', 'post-comments', 'post-categories'],
+	'posts': ['intros', 'posts', 'post-comments', 'post-categories'],
 	'galleries': 'galleries',
 	'enquiries': 'enquiries',
 	'users': 'users',
 	'field-tests': 'things',
-	'intros': 'intros',
 });
 
 keystone.start();
