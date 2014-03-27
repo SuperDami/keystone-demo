@@ -46,7 +46,6 @@ keystone.set('404', function(req, res, next) {
 
 // Load Routes
 var routes = {
-	//api: importRoutes('./api'),
 	download: importRoutes('./download'),
 	views: importRoutes('./views'),
 	api: importRoutes('./api')
@@ -66,7 +65,7 @@ exports = module.exports = function(app) {
 	
 	// API
 	// app.all('/api*', keystone.initAPI);
-	app.get('/api/users', routes.api.users);
+	// app.get('/api/users', routes.api.users);
 	app.get('/api/categories', routes.api.categories);
 	app.get('/api/category/:category?', routes.api.category);
 	app.get('/api/gallery', routes.api.gallery);
